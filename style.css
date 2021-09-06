@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.navbar {
+    height: 6.125em;
+}
+
+.navbar-img {
+    padding-right: 1em;
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.navbar-icon:hover .navbar-title {
+    color: #DE2E54;
+}
+
+.navbar-icon:active .navbar-title {
+    color: #EB8298;
+}
+
+.nav-item {
+    padding: 0 1em;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #DE2E54;
+}
+
+.nav-link:active {
+    color: #EB8298;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #DE2E54;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+}
+
+.nav-btn:hover {
+    background-color: #fff;
+    border: 2px solid #DE2E54;
+    color: #DE2E54;
+}
+
+.nav-btn:active {
+    background-color: #EB8298;
+    border: 2px solid #EB8298;
+    color: #fff;
+}
+
+#home {
+    background-color: #0EB4C1;
+}
+
+.home-content {
+    overflow: hidden;
+}
+
+.home-texts {
+    padding: 120px 0;
+    width: 500px;
+}
+
+.home-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #DE2E54;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+}
+
+.home-btn:hover {
+    background-color: #B4496A;
+    border: 2px solid #B4496A;
+}
+
+.home-btn:active {
+    background-color: #8B6480;
+    border: 2px solid #8B6480;
+}
+
+.home-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+}
+
+.home-info {
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 16px 0 36px 0;
+    line-height: 150%;
+}
+
+.home-image {
+    transform: translate(0, 25px);
+}
+
+#xizmat {
+    padding: 120px 0;
+}
+
+#xizmat .container {
+    width: 840px;
+    margin: 0 auto;
+}
+
+.first-box {
+    margin-bottom: 50px;
+}
+
+.first-box img {
+    width: 200px;
+    margin-right: 64px;
+}
+
+.xizmat-texts-title {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 24px;
+    color: #222;
+}
+
+.xizmat-title {
+    margin-bottom: 56px;
+}
+
+.xizmat-heading {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.xizmat-texts-subtitle {
+    font-size: 16px;
+    color: #444444;
+}
+
+.xizmat {
+    margin-left: 40%;
+}
+
+#sign-up {
+    background-color: #0EB4C1;
+    padding: 64px 0;
+}
+
+.sign-up-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.first-btn {
+    margin-right: 40px;
+}
+
+.btn {
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.first-btn:hover {
+    background-color: #DE2E54;
+    border: 2px solid #DE2E54;
+    color: #fff;
+}
+
+.first-btn:active {
+    background-color: #B4496A;
+    border: 2px solid #B4496A;
+    color: #fff;
+}
+
+.second-btn:hover {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #fff;
+}
+
+.btns {
+    margin-left: 30%;
+}
+
+#footer {
+    background-color: #222222;
+}
+
+#footer .nav-link {
+    color: #fff;
+}
+
+#footer .navbar-title {
+    color: #fff;
+}
+
+#footer .navbar-title:hover {
+    color: #DE2E54;
+}
+
+#footer .navbar-title:active {
+    color: #a7a7a7;
+}
+
+#footer .nav-link:hover {
+    color: #DE2E54;
+}
+
+#footer .nav-link:active {
+    color: #a7a7a7;
+}
